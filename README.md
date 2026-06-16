@@ -25,20 +25,22 @@ Hi, I'm **Shinde Nikhil**.
 ---
 
 # 📖 Redis Learning Roadmap (10 Parts)
-✅ Part 1: Redis Fundamentals
-What is Redis?
-Why Redis?
-Features of Redis
-Installation & Setup
-Redis Architecture
-✅ Part 2: Redis Setup & Connection
-Docker Setup
-Docker Compose
-Redis Container
-MongoDB Container
-Redis + Node.js Connection
-MongoDB + Node.js Connection
-API Testing
+## 🗺️ Redis Roadmap 
+### ✅ Part 1 
+- Redis Fundamentals
+- What is Redis? -
+- Features of Redis -
+- Installation & Setup -
+- Redis Architecture 
+### ✅ Part 2 
+- Redis Setup & Connection
+- Docker Setup 
+- Docker Compose 
+- Redis Container 
+- MongoDB Container 
+- Redis + Node.js Connection 
+- MongoDB + Node.js Connection 
+- API Testing
 
 
 
