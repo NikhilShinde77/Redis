@@ -41,6 +41,100 @@ Hi, I'm **Shinde Nikhil**.
 - Redis + Node.js Connection 
 - MongoDB + Node.js Connection 
 - API Testing
+### ✅ Part 3
+- Redis Banner API
+- Build REST APIs with Express.js
+- Connect Node.js with Redis
+- Store Banner Messages in Redis
+- Retrieve Banner Messages
+- Delete Banner Messages
+- Check Key Existence
+- Redis Strings Data Type
+- Redis SET Command
+- Redis GET Command
+- Redis DEL Command
+- Redis EXISTS Command
+- Using Redis as an In-Memory Database
+### ✅ Part 4
+- Redis OTP Verification System
+- Generate OTP
+- Store OTP in Redis
+- Verify OTP
+- Delete OTP After Verification
+- Check OTP Expiry Time
+- Redis TTL
+- Redis EXPIRE
+- Authentication Flow
+- Temporary Data Storage
+### ✅ Part 5
+- Redis JSON vs Hash Storage
+- Store User Data as JSON String
+- Retrieve JSON Data
+- Store User Data in Redis Hash
+- Retrieve Hash Data
+- Compare JSON and Hash Approaches
+- Redis Strings
+- Redis Hashes
+- User Profile Management
+- Data Serialization with JSON.stringify()
+### ✅ Part 6
+- Redis Queue System
+- Email Job Queue
+- Producer-Consumer Pattern
+- Queue-Based Processing
+- Store Jobs in Redis List
+- Process Jobs from Queue
+- Background Task Simulation
+- Redis Lists
+- Job Management System
+- Asynchronous Processing
+### ✅ Part 7
+- BullMQ Introduction
+- Redis-Powered Job Queues
+- Email Processing Queue
+- Queue Producer
+- Queue Worker
+- Background Job Processing
+- Retry Mechanism
+- Exponential Backoff Strategy
+- Job Events
+- Scalable Queue Architecture
+### ✅ Part 8
+- Redis Pub/Sub System
+- Publisher & Subscriber Model
+- Real-Time Notifications
+- Message Broadcasting
+- Event-Driven Communication
+- Redis Channels
+- Notification Service
+- Decoupled Architecture
+- Real-Time Messaging
+
+#### 📂 Project Features
+
+- POST `/not` → Publish Notification
+- Subscribe to Notification Channel
+- Receive Real-Time Messages
+- Broadcast Messages to Multiple Subscribers
+
+#### 🎯 Redis Commands Used
+
+- PUBLISH
+- SUBSCRIBE
+
+#### 🎯 Learning Outcomes
+
+- Understanding Redis Pub/Sub
+- Real-Time Communication
+- Publisher-Subscriber Pattern
+- Event-Driven Systems
+- Message Broadcasting
+- Building Notification Systems
+- Decoupled Service Architecture
+- Redis Messaging Features
+
+
+
 
 
 
