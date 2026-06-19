@@ -109,6 +109,16 @@ Hi, I'm **Shinde Nikhil**.
 - Notification Service
 - Decoupled Architecture
 - Real-Time Messaging
+### ✅ Part 9
+- Redis Live Leaderboard
+- Real-Time Rankings
+- User Score Management
+- Sorted Sets (ZSET)
+- Top Players Tracking
+- Dynamic Score Updates
+- Rank Calculation
+- Gaming Leaderboard System
+- Real-Time Analytics
 
 #### 📂 Project Features
 
