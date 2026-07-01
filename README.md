@@ -1,293 +1,243 @@
-# 🚀 180 Days to 40+ LPA Challenge
-## Mastering Backend Development with Redis, Node.js & System Design
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=180+Days+Coding+Challenge;Backend+Developer+Journey;Redis+%7C+Node.js+%7C+Docker;Building+Projects+Every+Single+Day;Future+Software+Engineer+%F0%9F%9A%80" />
+<img src="https://raw.githubusercontent.com/redis/redis-doc/master/docs/images/redis-white.png" width="140"/>
 
-<br>
+# ⚡ Redis Learning Repository
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,redis,docker,mongodb,git,github,js,vscode" />
+### Learn • Build • Practice • Master Redis
 
-<br><br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=algolia&row=1&column=6"/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=24&duration=2500&pause=1000&color=DC382D&center=true&vCenter=true&width=700&lines=Redis+Learning+Journey;Building+Real+Projects;Caching+%7C+Queues+%7C+PubSub;Node.js+%2B+Redis;Daily+Practice"/>
 
 </div>
 
 ---
 
-# 🌌 3D Developer Banner
+# 📚 Repository Overview
 
-<div align="center">
+This repository contains practical Redis projects built with **Node.js**, **Express.js**, and **Docker**.
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
-
-</div>
+Every section focuses on real-world backend development concepts using Redis.
 
 ---
 
-# 👨‍💻 About Me
+# 🚀 Learning Roadmap
 
-<img align="right" width="350" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif">
-
-### Hi, I'm **Shinde Nikhil** 👋
-
-🎓 Integrated M.Sc. IT Student
-
-🚀 Backend Developer in Progress
-
-💻 Learning Modern Backend Technologies
-
-📚 Currently Mastering Redis
-
-🔥 Building Real Projects Daily
-
-🎯 Goal → Software Engineer (40+ LPA)
-
-🌱 Never Stop Learning.
+| Part | Topic | Status |
+|------|--------|--------|
+| ✅ Part 1 | Redis Fundamentals | Complete |
+| ✅ Part 2 | Docker Setup | Complete |
+| ✅ Part 3 | Banner API | Complete |
+| ✅ Part 4 | OTP Verification | Complete |
+| ✅ Part 5 | JSON vs Hash | Complete |
+| ✅ Part 6 | Queue System | Complete |
+| ✅ Part 7 | BullMQ | Complete |
+| ✅ Part 8 | Pub/Sub | Complete |
+| ✅ Part 9 | Live Leaderboard | Complete |
+| 🚀 Part 10 | Coming Soon | Soon |
 
 ---
 
-# 🚀 Tech Stack
+# 📦 Projects
 
-<div align="center">
+## 🔴 Redis Fundamentals
 
-| Backend | Database | DevOps | Tools |
-|---------|----------|---------|-------|
-| Node.js | Redis | Docker | Git |
-| Express.js | MongoDB | Docker Compose | GitHub |
-| JavaScript | JSON | Linux | VS Code |
-
-</div>
-
----
-
-# 🧠 Learning Roadmap
-
-## ✅ Part 1 — Redis Fundamentals
-
-- Redis Introduction
 - Installation
-- Architecture
-- Features
-- In-Memory Database
+- Configuration
+- Redis CLI
+- Redis Architecture
+- Data Types
 
 ---
 
-## ✅ Part 2 — Setup
+## 🚀 Banner API
 
-- Docker
-- Docker Compose
-- Redis Container
-- MongoDB Container
-- Express Connection
-
----
-
-## ✅ Part 3 — Banner API
-
-- REST API
-- Redis Strings
-- GET
-- SET
-- EXISTS
-- DELETE
+```
+POST   /banner
+GET    /banner
+DELETE /banner
+GET    /banner/exists
+```
 
 ---
 
-## ✅ Part 4 — OTP System
+## 🔐 OTP Verification
 
-- OTP Generation
-- Verification
-- TTL
-- Expiry
-- Authentication
-
----
-
-## ✅ Part 5 — JSON vs HASH
-
-- JSON Storage
-- Redis Hash
-- Serialization
-- User Profiles
+```
+Generate OTP
+Store OTP
+Verify OTP
+Delete OTP
+TTL
+Expire
+```
 
 ---
 
-## ✅ Part 6 — Queue System
+## 📄 JSON vs HASH
 
-- Producer
-- Consumer
-- Redis Lists
-- Job Queue
-- Background Processing
+```
+SET
+GET
 
----
+HSET
+HGETALL
 
-## ✅ Part 7 — BullMQ
+JSON Storage
 
-- Workers
-- Retry
-- Delay
-- Events
-- Background Jobs
+Hash Storage
+```
 
 ---
 
-## ✅ Part 8 — Pub/Sub
+## 📬 Queue System
 
-- Publisher
-- Subscriber
-- Notification Service
-- Channels
-- Real Time Messaging
+```
+LPUSH
+RPOP
 
----
+Producer
 
-## ✅ Part 9 — Live Leaderboard
+Consumer
 
-- Sorted Sets
-- Rankings
-- Scores
-- Top Players
-- Analytics
+Background Jobs
+```
 
 ---
 
-## 🔜 Part 10
+## ⚙ BullMQ
 
-- Redis Streams
-- Caching
-- Rate Limiter
-- Session Storage
-- Distributed Lock
-- Final Project
+```
+Queue
 
----
+Worker
 
-# 📅 Challenge Progress
+Retry
 
-| Day | Project | Status |
-|------|---------|--------|
-| 01 | Redis Basics | ✅ |
-| 02 | Redis Setup | ✅ |
-| 03 | Banner API | ✅ |
-| 04 | OTP System | ✅ |
-| 05 | JSON vs Hash | ✅ |
-| 06 | Queue System | ✅ |
-| 07 | BullMQ | ✅ |
-| 08 | Pub/Sub | ✅ |
-| 09 | Leaderboard | ✅ |
-| ... | Coming Soon | 🚀 |
+Delay
+
+Events
+```
 
 ---
 
-# 🛠️ Current Learning
+## 📡 Pub/Sub
+
+```
+PUBLISH
+
+SUBSCRIBE
+
+Notification Service
+
+Real-Time Messaging
+```
+
+---
+
+## 🏆 Leaderboard
+
+```
+ZADD
+
+ZRANGE
+
+ZREVRANGE
+
+ZSCORE
+
+ZRANK
+```
+
+---
+
+# 📖 Redis Commands
+
+| Category | Commands |
+|------------|----------------|
+| Strings | SET, GET, DEL |
+| Hash | HSET, HGETALL |
+| Lists | LPUSH, RPOP |
+| Sets | SADD, SMEMBERS |
+| Sorted Sets | ZADD, ZRANGE |
+| Pub/Sub | PUBLISH, SUBSCRIBE |
+| Expiry | TTL, EXPIRE |
+| Keys | EXISTS, KEYS |
+
+---
+
+# ⚙ Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=redis,nodejs,express,docker,js,git,github,vscode"/>
+
+</div>
+
+---
+
+# 📂 Folder Structure
 
 ```text
-███████████████████░░░░░░░░ 65%
-
-✔ Redis
-✔ Node.js
-✔ Express
-✔ Docker
-✔ BullMQ
-✔ MongoDB
-⬜ System Design
-⬜ Kubernetes
-⬜ AWS
+Redis/
+│
+├── Part-01-Fundamentals
+├── Part-02-Docker
+├── Part-03-Banner-API
+├── Part-04-OTP-System
+├── Part-05-JSON-vs-Hash
+├── Part-06-Queue-System
+├── Part-07-BullMQ
+├── Part-08-PubSub
+├── Part-09-Leaderboard
+└── README.md
 ```
 
 ---
 
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical"/>
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=radical"/>
-
-<img width="70%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YOUR_USERNAME&theme=github_dark"/>
-
-</div>
-
----
-
-# 🎯 Challenge Goals
-
-- ✅ Redis Mastery
-- ✅ Backend Development
-- ✅ Docker
-- ✅ Node.js
-- ✅ Express.js
-- ✅ System Design
-- ✅ Git & GitHub
-- ✅ Open Source
-- 🎯 Software Engineer (40+ LPA)
-
----
-
-# 🏆 What You'll Find Here
+# 📈 Progress
 
 ```
-📦 Redis Projects
-📦 REST APIs
-📦 Authentication
-📦 Job Queues
-📦 Pub/Sub
-📦 Leaderboards
-📦 Docker Projects
-📦 Production Backend
-📦 Interview Notes
-📦 Daily Progress
+██████████████████████████░░ 90%
+
+Redis Fundamentals      ✅
+
+Banner API             ✅
+
+OTP System             ✅
+
+JSON vs HASH           ✅
+
+Queue                  ✅
+
+BullMQ                 ✅
+
+Pub/Sub                ✅
+
+Leaderboard            ✅
+
+Advanced Redis         🚀
 ```
 
 ---
 
-# 🌐 Connect With Me
+# 🎯 Features
 
-<div align="center">
-
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://skillicons.dev/icons?i=github"/>
-</a>
-
-<a href="https://linkedin.com/in/YOUR_USERNAME">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-<a href="https://instagram.com/YOUR_USERNAME">
-<img src="https://skillicons.dev/icons?i=instagram"/>
-</a>
-
-<a href="https://x.com/YOUR_USERNAME">
-<img src="https://skillicons.dev/icons?i=twitter"/>
-</a>
-
-</div>
-
----
-
-# 💻 Daily Motivation
-
-> **"Consistency beats talent when talent doesn't stay consistent."**
-
-> **180 Days. One Goal. Become Unstoppable. 🚀**
+- REST APIs
+- Redis Data Structures
+- Authentication
+- OTP System
+- Background Jobs
+- Queue Processing
+- Event Driven Architecture
+- Real-Time Messaging
+- Leaderboard System
 
 ---
 
 <div align="center">
 
-### ⭐ If you like this repository, don't forget to Star it ⭐
+## 🚀 Built with Redis ❤️
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6C63FF&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=DC382D&height=120&section=footer"/>
 
 </div>
