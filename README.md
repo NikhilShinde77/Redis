@@ -65,18 +65,20 @@ Target:     40+ LPA 🎯
 ## 🗺️ Redis Learning Roadmap
 
 <details open>
-<summary><b>✅ Part 1 — Redis Fundamentals</b></summary>
+<summary><b>✅ Part 1 — API Caching with Redis</b></summary>
 <br/>
 
-- What is Redis?
-- Features of Redis
-- Installation & Setup
-- Redis Architecture
+- Cache MongoDB Query Results in Redis
+- Cache Invalidation on Create/Update (`DEL` on new data)
+- `GET` / `SET` / `DEL` for Cached Data
+- Cache-Aside Pattern (Read-Through Caching)
+- Reducing Database Load with Redis Fallback to MongoDB
+- JSON Serialization for Cached Responses
 
 </details>
 
 <details>
-<summary><b>✅ Part 2 — Redis Setup & Connection</b></summary>
+<summary><b>✅ Part 2 — OTP Test (Redis + MongoDB + Docker)</b></summary>
 <br/>
 
 - Docker Setup
@@ -85,6 +87,9 @@ Target:     40+ LPA 🎯
 - MongoDB Container
 - Redis + Node.js Connection
 - MongoDB + Node.js Connection
+- Generate & Send OTP via API
+- Store OTP in Redis with Expiry (`EX`)
+- Verify OTP & Auto-Delete After Success
 - API Testing
 
 </details>
@@ -162,17 +167,6 @@ Target:     40+ LPA 🎯
 - Redis Channels & Notification Service
 - Decoupled Architecture
 
-</details>
-
-<details>
-<summary><b>✅ Part 9 — Redis Live Leaderboard</b></summary>
-<br/>
-
-- Real-Time Rankings & Score Management
-- Sorted Sets (`ZSET`)
-- Top Players Tracking & Rank Calculation
-- Gaming Leaderboard System & Real-Time Analytics
-
 **📂 Project Features**
 - `POST /not` → Publish Notification
 - Subscribe to Notification Channel
@@ -186,6 +180,21 @@ Target:     40+ LPA 🎯
 - Publisher-Subscriber Pattern
 - Event-Driven Systems & Message Broadcasting
 - Notification Systems & Decoupled Architecture
+
+</details>
+
+<details>
+<summary><b>✅ Part 9 — Redis Rate Limiter</b></summary>
+<br/>
+
+- API Rate Limiting Middleware with Redis
+- Track Requests per IP using `INCR`
+- Set Expiry Window with `EXPIRE`
+- Block Excess Requests (`429 Too Many Requests`)
+- Fixed Window Rate Limiting Strategy
+- Protecting Routes from Abuse & Brute Force
+
+**🎯 Redis Commands Used:** `INCR` · `EXPIRE`
 
 </details>
 
@@ -222,21 +231,3 @@ Target:     40+ LPA 🎯
 ## 📈 Current Learning Focus
 
 <div align="center">
-
-```
-Redis  →  Node.js  →  Express.js  →  Docker  →  System Design  →  Backend Mastery
-```
-
-</div>
-
----
-
-<div align="center">
-
-### 🌟 If you find this journey inspiring, consider giving it a star!
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer" width="100%"/>
-
-**#180DaysChallenge #Redis #NodeJS #BackendDeveloper #40LPAGoal**
-
-</div>
